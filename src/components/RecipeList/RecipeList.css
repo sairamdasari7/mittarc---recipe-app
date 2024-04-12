@@ -1,0 +1,50 @@
+/* frontend/src/components/RecipeList.css */
+.recipe-list-container {
+    width: 80%;
+    margin: auto;
+  }
+  
+  .recipe-list-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .recipe-list-container ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .recipe-list-container li {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .recipe-list-container li img {
+    width: 150px;
+    margin-right: 20px;
+  }
+  
+  .recipe-list-container li div {
+    flex-grow: 1;
+  }
+  
+  .recipe-list-container li h3 {
+    margin-top: 0;
+  }
+  
+  .recipe-list-container li p {
+    margin: 5px 0;
+  }
+  
+  @media (max-width: 768px) {
+    .recipe-list-container li {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .recipe-list-container li img {
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  }
+    

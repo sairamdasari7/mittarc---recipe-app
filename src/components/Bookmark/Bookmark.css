@@ -1,0 +1,25 @@
+/* frontend/src/components/Bookmark.css */
+.bookmark-container {
+    width: 80%;
+    margin: auto;
+  }
+  
+  .bookmark-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .bookmark-container ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .bookmark-container li {
+    margin-bottom: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .bookmark-container {
+      width: 90%;
+    }
+  }
+  

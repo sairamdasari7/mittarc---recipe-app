@@ -1,0 +1,30 @@
+/* frontend/src/components/RecipeDetail.css */
+.recipe-detail-container {
+    width: 80%;
+    margin: auto;
+  }
+  
+  .recipe-detail-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .recipe-detail-container img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .recipe-detail-container h3 {
+    margin-top: 0;
+  }
+  
+  .recipe-detail-container p {
+    margin-bottom: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .recipe-detail-container img {
+      width: 80%;
+      margin-left: 10%;
+    }
+  }
+  
